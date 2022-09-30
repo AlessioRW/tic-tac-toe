@@ -171,3 +171,4 @@ function toggleDifficulty(){
     diffucltyCounter += 1
     document.getElementById('difficulty-button').innerText = `Difficulty:${difficultyList[diffucltyCounter%difficultyList.length]}`
 }
+
