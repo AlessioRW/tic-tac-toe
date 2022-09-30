@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-content: center;
     background-color: rgb(52, 50, 50);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 main {
     width: 35vw;
@@ -17,7 +18,6 @@ main {
     position: relative;
 }
 section {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 8vw;
     display: flex;
     justify-content: center;
@@ -39,7 +39,6 @@ section {
     width: 15vw;
     font-size: 2.5vw;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #reset-button{
@@ -50,16 +49,14 @@ section {
     margin-top:35%;
     font-size: 2.5vw;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#info{
+#top-info{
     position: absolute;
     color: hotpink;
     height: 100px;
     margin-top: 0%;
-    margin-left: 8%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10%;
     text-align: center;
     font-size: 1vw;
 }
@@ -69,9 +66,9 @@ section {
     color: hotpink;
     margin-right: 50%;
     margin-top: 7%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1vw;
     width: 10vw;
+    text-align: center;
 }
 
 #turn{
@@ -79,9 +76,9 @@ section {
     color: hotpink;
     margin-right: 50%;
     width: 10vw;
-    margin-top: 24%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 38%;
     font-size: 2vw;
+    text-align: center;
 }
 
 #reset-score{
@@ -89,21 +86,55 @@ section {
     background-color: rgb(52, 50, 50);
     border-radius: 5%;
     height: 2vw;
-    margin-top:0%;
+    width:  10vw;
+    margin-top:4%;
     font-size: 1vw;
     text-align: center;
-    font-family: system-ui, -apple-system, B
 }
+
 
 #fun-button{
     color: hotpink;
     background-color: rgb(52, 50, 50);
     border-radius: 5%;
     height: 2vw;
-    width:9vw;
-    margin-top:27%;
-    margin-left: 0%;
+    width:  10vw;
+    margin-top:4%;
     font-size: 1vw;
     text-align: center;
-    font-family: system-ui, -apple-system, B
+}
+
+#bot-button{
+    color: hotpink;
+    background-color: rgb(52, 50, 50);
+    border-radius: 5%;
+    height: 2vw;
+    width:  10vw;
+    margin-top:4%;
+    font-size: 1vw;
+    text-align: center;
+}
+
+#difficulty-button{
+    color: hotpink;
+    background-color: rgb(52, 50, 50);
+    border-radius: 5%;
+    height: 2vw;
+    width:  10vw;
+    margin-top:4%;
+    font-size: 1vw;
+    text-align: center;
+}
+
+
+.extra-buttons{
+    color: hotpink;
+    background-color: rgb(52, 50, 50);
+    border-radius: 5%;
+    height: 2vw;
+    width:9vw;
+    margin-top:20vw;
+    margin-left: 0vw;
+    font-size: 1vw;
+    text-align: left;
 }
