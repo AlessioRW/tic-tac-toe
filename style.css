@@ -1,0 +1,109 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(52, 50, 50);
+}
+main {
+    width: 35vw;
+    height: 37vh;
+    margin: 8%;
+    display: grid;
+    grid-template-columns: repeat(3, 11.666vw);
+    grid-template-rows: repeat(3, 11.666vw);
+    grid-gap: 0px;
+    position: relative;
+}
+section {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 80, 84);
+    color: hotpink;
+    border-width:0.5vw;
+    border-style:solid;
+    border-color:rgb(40, 36, 36);
+    background-image: none;
+    width: 100%;
+    height: 100%;
+}
+
+#status{
+    color: hotpink;
+    margin-left: 10vw;
+    margin-top: 10%;
+    width: 15vw;
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#reset-button{
+    color: hotpink;
+    background-color: rgb(52, 50, 50);
+    border-radius: 5%;
+    height: 4vw;
+    margin-top:35%;
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#info{
+    position: absolute;
+    color: hotpink;
+    height: 100px;
+    margin-top: 0%;
+    margin-left: 8%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 1vw;
+}
+
+#scoreboard{
+    position: absolute;
+    color: hotpink;
+    margin-right: 50%;
+    margin-top: 7%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1vw;
+    width: 10vw;
+}
+
+#turn{
+    position: absolute;
+    color: hotpink;
+    margin-right: 50%;
+    width: 10vw;
+    margin-top: 24%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2vw;
+}
+
+#reset-score{
+    color: hotpink;
+    background-color: rgb(52, 50, 50);
+    border-radius: 5%;
+    height: 2vw;
+    margin-top:0%;
+    font-size: 1vw;
+    text-align: center;
+    font-family: system-ui, -apple-system, B
+}
+
+#fun-button{
+    color: hotpink;
+    background-color: rgb(52, 50, 50);
+    border-radius: 5%;
+    height: 2vw;
+    width:9vw;
+    margin-top:27%;
+    margin-left: 0%;
+    font-size: 1vw;
+    text-align: center;
+    font-family: system-ui, -apple-system, B
+}
